@@ -32,11 +32,6 @@ super initialize.
 ]
 
 { #category : #'as yet unclassified' }
-Chat >> proprietaire [
- ^propriètaire 
-]
-
-{ #category : #'as yet unclassified' }
 Chat >> propriètaire [
  ^propriètaire 
 ]

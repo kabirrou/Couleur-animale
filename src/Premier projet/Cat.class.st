@@ -1,5 +1,5 @@
 Class {
-	#name : #Chat,
+	#name : #Cat,
 	#superclass : #Object,
 	#instVars : [
 		'yeux',
@@ -10,21 +10,21 @@ Class {
 }
 
 { #category : #accessing }
-Chat >> couleurcheveau [
+Cat >> couleurcheveau [
  ^couleurcheveau.
  
 
 ]
 
 { #category : #accessing }
-Chat >> couleurcheveau:colorcheveau [
+Cat >> couleurcheveau:colorcheveau [
  couleurcheveau :=colorcheveau 
  
 
 ]
 
 { #category : #initialization }
-Chat >> initialize [ 
+Cat >> initialize [ 
 super initialize.
  couleurcheveau:='red'.
  yeux :='yeux de chat'.
@@ -32,21 +32,21 @@ super initialize.
 ]
 
 { #category : #'as yet unclassified' }
-Chat >> propriètaire [
+Cat >> propriètaire [
  ^propriètaire 
 ]
 
 { #category : #'as yet unclassified' }
-Chat >> propriètaire:propriètairechat [
+Cat >> propriètaire:propriètairechat [
  propriètaire:=propriètairechat 
 ]
 
 { #category : #accessing }
-Chat >> yeux [
+Cat >> yeux [
 ^yeux
 ]
 
 { #category : #accessing }
-Chat >> yeux:coloryeux [
+Cat >> yeux:coloryeux [
 yeux:=coloryeux
 ]

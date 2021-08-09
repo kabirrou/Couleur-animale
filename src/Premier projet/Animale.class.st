@@ -16,24 +16,12 @@ Animale >> couleurcheveau [
 
 ]
 
-{ #category : #accessing }
-Animale >> couleurcheveau:colorcheveau [
- couleurcheveau :=colorcheveau 
- 
-
-]
-
 { #category : #initialization }
 Animale >> initialize [ 
 super initialize.
  couleurcheveau:='red'.
  yeux :='yeux de chat'.
  propriètaire:='kabirou'.
-]
-
-{ #category : #'as yet unclassified' }
-Animale >> propriètaire [
- ^propriètaire 
 ]
 
 { #category : #'as yet unclassified' }

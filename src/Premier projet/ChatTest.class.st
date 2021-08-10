@@ -12,7 +12,7 @@ Class {
 { #category : #'as yet unclassified' }
 ChatTest >> testcouleurcheveau [
  |j|
-j:= Cat new. 
+j:= Chat new. 
 j couleurcheveau.
  self assert: j couleurcheveau equals: 'red'.
 ]
@@ -20,7 +20,7 @@ j couleurcheveau.
 { #category : #'as yet unclassified' }
 ChatTest >> testpropriètaire [
  |j|
-j:= Cat new. 
+j:= Chat new. 
 j propriètaire. 
  j propriètaire.
 
@@ -31,7 +31,7 @@ self assert: j propriètaire equals: 'kabirou'
 { #category : #'as yet unclassified' }
 ChatTest >> testyeux [
  |j|
-j:= Cat new. 
+j:= Chat new. 
 j yeux.
  self assert: j yeux equals: 'yeux de chat'.
 ]

@@ -26,7 +26,7 @@ Cat >> couleurcheveau:colorcheveau [
 { #category : #initialization }
 Cat >> initialize [ 
 super initialize.
- couleurcheveau:='red'.
+ couleurcheveau:='yellow'.
  yeux :='yeux de chat'.
  propriètaire:='kabirou'.
 ]
